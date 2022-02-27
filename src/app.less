@@ -1,0 +1,22 @@
+@container_margin: 4px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app__container {
+  display: flex;
+  height: 100%;
+}
+
+.app_nav__container {
+  min-width: 300px;
+  margin: @container_margin;
+  border-right: 2px solid gray;
+}
+
+.app_content__container {
+  flex-grow: 1;
+  margin: @container_margin;
+}
